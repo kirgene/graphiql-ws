@@ -34,7 +34,6 @@ function createGraphiQLParams(query: any): GraphiQLParams {
 function createGraphiQLData(params: GraphiQLParams, options: GraphiQLData): GraphiQLData {
   return {
     endpointURL: options.endpointURL,
-    subscriptionsEndpoint: options.subscriptionsEndpoint,
     query: params.query || options.query,
     variables: params.variables && JSON.parse(params.variables) || options.variables,
     operationName: params.operationName || options.operationName,

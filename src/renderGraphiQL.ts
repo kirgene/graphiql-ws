@@ -20,7 +20,6 @@
 
 export type GraphiQLData = {
   endpointURL: string,
-  subscriptionsEndpoint?: string,
   query?: string,
   variables?: Object,
   operationName?: string,
@@ -29,7 +28,7 @@ export type GraphiQLData = {
 };
 
 // Current latest version of GraphiQL.
-const GRAPHIQL_VERSION = '0.11.6';
+const GRAPHIQL_VERSION = '0.11.5';
 const GRAPHQL_WS_VERSION = '0.1.1';
 
 // Ensures string values are safe to be used within a <script> tag.
