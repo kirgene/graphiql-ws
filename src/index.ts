@@ -1,5 +1,5 @@
-import url from 'url';
-import express from 'express';
+import * as express from 'express';
+import * as url from 'url';
 import { GraphiQLData } from './renderGraphiQL';
 import { resolveGraphiQLString } from './resolveGraphiQLString';
 
