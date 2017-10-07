@@ -28,8 +28,8 @@ export type GraphiQLData = {
 };
 
 // Current latest version of GraphiQL.
-const GRAPHIQL_VERSION = '0.11.5';
-const GRAPHQL_WS_VERSION = '0.1.2';
+const GRAPHIQL_VERSION = 'latest';
+const GRAPHQL_WS_VERSION = 'latest';
 
 // Ensures string values are safe to be used within a <script> tag.
 // TODO: I don't think that's the right escape function
