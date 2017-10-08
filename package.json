@@ -1,7 +1,7 @@
 {
   "name": "graphiql-ws",
   "description": "GraphiQL rendering implementation for `graphql-ws` package",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/index.js",
   "repository": "",
   "author": "",
@@ -17,5 +17,9 @@
     "@types/express": "^4.0.37",
     "tslint": "^4.5.1",
     "typescript": "^2.2.1"
+  },
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
   }
 }
